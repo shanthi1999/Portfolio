@@ -1,0 +1,222 @@
+{
+  "skills": [
+    {
+      "title": "JavaScript",
+      "descriptionInfo": "I am proficient in JavaScript and have successfully built dynamic web applications using its core concepts.",
+      "description": "Experienced in JavaScript",
+      "image": "/javascript.jpg"
+    },
+    {
+      "title": "ReactJS",
+      "descriptionInfo": "I am proficient in ReactJS and have successfully developed complex, responsive user interfaces with this library.",
+      "description": "Experienced with ReactJS",
+      "image": "/reactjs.png"
+    },
+    {
+      "title": "NodeJS",
+      "descriptionInfo": "I am proficient in NodeJS and have successfully built scalable back-end services and APIs.",
+      "description": "Experienced in NodeJS",
+      "image": "/nodejs.jpg"
+    },
+    {
+      "title": "ExpressJS",
+      "descriptionInfo": "I am proficient in ExpressJS and have successfully created robust server-side applications.",
+      "description": "Experienced with ExpressJS",
+      "image": "/express.webp"
+    },
+    {
+      "title": "NextJS",
+      "descriptionInfo": "I am proficient in NextJS and have successfully implemented server-side rendering and static site generation.",
+      "description": "Experienced with NextJS",
+      "image": "/nextjs.jpeg"
+    },
+    {
+      "title": "MongoDB",
+      "descriptionInfo": "I am proficient in MongoDB and have successfully managed data storage and retrieval in NoSQL databases.",
+      "description": "Experienced with MongoDB",
+      "image": "/mongodb.webp"
+    },
+    {
+      "title": "TypeScript",
+      "descriptionInfo": "I am proficient in TypeScript and have successfully improved code quality with strong typing in large-scale applications.",
+      "description": "Experienced with TypeScript",
+      "image": "/typescript.png"
+    },
+    {
+      "title": "PostgreSQL",
+      "descriptionInfo": "I am proficient in PostgreSQL and have successfully designed and optimized relational databases.",
+      "description": "Experienced with PostgreSQL",
+      "image": "/postgresql.webp"
+    },
+    {
+      "title": "Azure",
+      "descriptionInfo": "I am proficient in Azure and have successfully deployed and managed cloud-based applications.",
+      "description": "Experienced with Azure",
+      "image": "/azure.png"
+    },
+    {
+      "title": "NestJS",
+      "descriptionInfo": "I am proficient in NestJS and have successfully developed scalable and maintainable server-side applications.",
+      "description": "Experienced with NestJS",
+      "image": "/nestjs.png"
+    },
+    {
+      "title": "SCSS",
+      "descriptionInfo": "I am proficient in SCSS and have successfully enhanced CSS with variables, mixins, and nesting.",
+      "description": "Experienced with SCSS",
+      "image": "/scss.jpg"
+    },
+    {
+      "title": "CSS",
+      "descriptionInfo": "I am proficient in CSS and have successfully styled responsive and visually appealing web pages.",
+      "description": "Experienced with CSS",
+      "image": "/css.jpeg"
+    },
+    {
+      "title": "HTML",
+      "descriptionInfo": "I am proficient in HTML and have successfully structured content for web applications.",
+      "description": "Experienced with HTML",
+      "image": "/html.png"
+    },
+    {
+      "title": "Material UI",
+      "descriptionInfo": "I am proficient in Material UI and have successfully implemented consistent and accessible user interfaces.",
+      "description": "Experienced with Material UI",
+      "image": "/materialui.png"
+    },
+    {
+      "title": "Ant Design (Antd)",
+      "descriptionInfo": "I am proficient in Ant Design and have successfully created enterprise-level UIs with this framework.",
+      "description": "Experienced with Ant Design",
+      "image": "/antd.png"
+    },
+    {
+      "title": "ElectronJS",
+      "descriptionInfo": "I am proficient in ElectronJS and have successfully built cross-platform desktop applications.",
+      "description": "Experienced with ElectronJS",
+      "image": "/electronjs.png"
+    },
+    {
+      "title": "Redux Toolkit",
+      "descriptionInfo": "I am proficient in Redux Toolkit and have successfully managed state in large-scale React applications.",
+      "description": "Experienced with Redux Toolkit",
+      "image": "/rtk.jpg"
+    },
+    {
+      "title": "Webpack",
+      "descriptionInfo": "I am proficient in Webpack and have successfully bundled and optimized assets for web applications.",
+      "description": "Experienced with Webpack",
+      "image": "/webpack.png"
+    }
+  ],
+  "projects": [
+    {
+      "name": "VirtualStaff",
+      "image": "/virtualstaff.png",
+      "description": "The Philippines Outsourcing Marketplace The easy way to hire Filipino virtual assistants and build an outsourced team in the Philippines The Philippines Outsourcing Marketplace The easy way to hire Filipino virtual assistants and build an outsourced team in the Philippines The Philippines Outsourcing Marketplace The easy way to hire Filipino virtual assistants and build an outsourced team in the Philippines",
+      "link": "https://www.virtualstaff.ph/",
+      "skills": [
+        "/skills/NodeJS.png",
+        "/skills/React.png",
+        "/skills/Express.png",
+        "/skills/MongoDB.png",
+        "/skills/Redux.png",
+        "/skills/NextJS.png",
+        "/skills/Typescript.png",
+        "/skills/Javascript.png",
+        "/skills/Jest.png"
+      ],
+      "tools": ["Figma", "WireFrames", "Github", "Socket", "Jitsi"]
+    },
+    {
+      "name": "iNextLabs",
+      "image": "/inextlabs.png",
+      "description": "Embark on a transformative journey with our state-of-the-art Generative AI technology. Revolutionize your business-customer interactions across various domains, from sales and customer support to recruiting, employee engagement, patient management, and feedback processes. Our innovative Generative AI solutions redefine the landscape, ushering in a new era of unparalleled customer experiences",
+      "link": "https://portal.inextlabs.ai/",
+      "skills": [
+        "/skills/NodeJS.png",
+        "/skills/React.png",
+        "/skills/Express.png",
+        "/skills/MongoDB.png",
+        "/skills/Redux.png",
+        "/skills/NextJS.png",
+        "/skills/Typescript.png",
+        "/skills/Javascript.png",
+        "/skills/Jest.png"
+      ],
+      "tools": ["Figma", "WireFrames","Loop", "Github", "Socket"]
+    },
+    {
+      "name": "TLYNT",
+      "image": "/tlynt.png",
+      "description": "Tylnt is a talent-finding app where a data-driven approach to creative development delivers winning videos across social media. As creative and media-buying experts, we analyze what works for other advertisers, optimize your ads, and continuously test new creatives. Let us help you scale with impactful ads tailored to your audience, driving engagement and maximizing ROI.Our team ensures your brand stands out by leveraging insights and innovative strategies.",
+      "link": "https://TLYNT.com",
+      "skills": [
+        "/skills/NodeJS.png",
+        "/skills/React.png",
+        "/skills/Express.png",
+        "/skills/MongoDB.png",
+        "/skills/Redux.png",
+        "/skills/NextJS.png",
+        "/skills/Typescript.png",
+        "/skills/Javascript.png",
+        "/skills/Jest.png"
+      ],
+      "tools": ["Figma", "WireFrames", "Github", "Socket", "Azure"]
+    },
+    {
+      "name": "Kotachi | Coko",
+      "image": "/kotahi.png",
+      "description": "Kotahi is a powerful tool designed to streamline the review process for teams handling preprints and articles. By saving countless hours of tedious triage work, Kotahi becomes an essential extension to any platform. Its flexible, adaptable, and innovative features make it the only solution that supports the pioneering of the PRC model. Kotahi streamlines review management and workflow for time-sensitive projects.",
+      "link": "https://kotahi.community/",
+      "skills": [
+        "/skills/NodeJS.png",
+        "/skills/React.png",
+        "/skills/Express.png",
+        "/skills/Redux.png",
+        "/skills/NextJS.png",
+        "/skills/Typescript.png",
+        "/skills/Javascript.png",
+        "/skills/Jest.png",
+        "/skills/postgresql.png"
+      ],
+      "tools": ["Figma", "confluence", "WireFrames", "Github", "Socket"]
+    }
+  ],
+  "companies":[
+    {
+      "name":"TechArdors_Global",
+      "Designation":"Software Engineer",
+      "Duration":"Nov, 2020 - May, 2021",
+      "image":"/companies/TechArdors.jpeg"
+    },
+    {
+      "name":"Colan_Info_Tech_Pvt_Ltd",
+      "Designation":"Software Engineer",
+      "Duration":"May, 2021 - Jun, 2022",
+      "Website":"https://colaninfotech.com/",
+      "image":"/companies/colan.jpeg"
+    },
+    {
+      "name":"Tech_Holding",
+      "Designation":"Software Engineer",
+      "Duration":"Jul, 2021 - Sep, 2022",
+      "Website":"https://techholding.co/",
+      "image":"/companies/techholding.jpeg"
+    },
+    {
+      "name":"Coko_Foundation",
+      "Designation":"Freelance Developer",
+      "Duration":"Oct, 2022 - Oct, 2023",
+      "Website":"https://coko.foundation/",
+      "image":"/companies/coko.jpeg"
+    },
+    {
+      "name":"iNextLabs_Pvt_Ltd",
+      "Designation":"Lead Software Engineer",
+      "Duration":"Nov, 2022 - Present",
+      "Website":"https://inextlabs.ai/",
+      "image":"/companies/inextlabs.jpeg"
+    }
+  ]
+}
