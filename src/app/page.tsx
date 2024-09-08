@@ -26,7 +26,7 @@ export default function Home() {
   const scrollToSection = (scrollRef: string) => {
     switch (scrollRef as string) {
       case 'experience':
-        (experienceRef.current)?.scrollIntoView({ behavior: 'smooth' });
+        (experienceRef.current as HTMLElement | null)?.scrollIntoView({ behavior: 'smooth' });
         break;
       default:
         break;
