@@ -32,7 +32,7 @@ export default function Home() {
         break;
     };
   }
-
+ 
   return (
     <Grid container xs={12} md={12} sm={12}>
       <Grid item xs={0} md={0.7} sm={0.7}>
