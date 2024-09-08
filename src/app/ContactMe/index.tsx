@@ -158,7 +158,7 @@ function ContactMe() {
               fontFamily:
                 "-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji",
             }}>
-            I'm always open to discussing new projects, creative ideas, or opportunities to be a part of your vision. Whether you have a question, a collaboration proposal, or just want to say hello, feel free to reach out! Let's build something amazing together. You can contact me through the form below or directly at shanthibabu1999@gmail.com.
+            I&rsquo;m always open to discussing new projects, creative ideas, or opportunities to be a part of your vision. Whether you have a question, a collaboration proposal, or just want to say hello, feel free to reach out! Let&rsquo;s build something amazing together. You can contact me through the form below or directly at shanthibabu1999@gmail.com.
           </Typography>
         </Grid>
         <Grid

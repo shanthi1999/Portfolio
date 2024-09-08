@@ -81,7 +81,7 @@ const HeroBox = styled(Box)(({ theme }) => ({
 const HeroInfo = () => (
   <HeroBox>
     <StyledTypography gutterBottom component="div">
-      Hi there, I'm Shanthi Babu
+      Hi there, I&rsquo;m Shanthi Babu
     </StyledTypography>
     <SubtitleTypography variant="body1" gutterBottom component="div">
       <SignatureChip
@@ -98,7 +98,7 @@ const HeroInfo = () => (
       />
     </SubtitleTypography>
     <DescriptionTypography variant="body1" gutterBottom component="div">
-      I am a MERN stack developer with 4+ years of experience in front-end, server-side, and database development. I'm a quick learner and a team player who is
+      I am a MERN stack developer with 4+ years of experience in front-end, server-side, and database development. I&rsquo;m a quick learner and a team player who is
       always looking to improve my skills and learn new technologies.
     </DescriptionTypography>
     <SignatureTypography variant="body1" gutterBottom component="div">
