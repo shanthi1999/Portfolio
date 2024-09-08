@@ -80,10 +80,10 @@ const HeroBox = styled(Box)(({ theme }) => ({
 
 const HeroInfo = () => (
   <HeroBox>
-    <StyledTypography gutterBottom component="div">
+    <StyledTypography gutterBottom>
       Hi there, I&rsquo;m Shanthi Babu
     </StyledTypography>
-    <SubtitleTypography variant="body1" gutterBottom component="div">
+    <SubtitleTypography variant="body1" gutterBottom>
       <SignatureChip
         variant="filled"
         color="secondary"
@@ -97,11 +97,11 @@ const HeroInfo = () => (
         label="Software Engineer"
       />
     </SubtitleTypography>
-    <DescriptionTypography variant="body1" gutterBottom component="div">
+    <DescriptionTypography variant="body1" gutterBottom>
       I am a MERN stack developer with 4+ years of experience in front-end, server-side, and database development. I&rsquo;m a quick learner and a team player who is
       always looking to improve my skills and learn new technologies.
     </DescriptionTypography>
-    <SignatureTypography variant="body1" gutterBottom component="div">
+    <SignatureTypography variant="body1" gutterBottom>
       My Signature skills:
     </SignatureTypography>
     <Box display="flex" justifyContent="center" gap={2}>
