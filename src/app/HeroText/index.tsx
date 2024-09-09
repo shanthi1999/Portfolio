@@ -6,7 +6,7 @@ import Image from "next/image";
 const primaryColor = "#194C75";
 const secondaryColor = "#B55C0E";
 
-const StyledTypography = styled(Typography)(({ theme }) => ({
+const StyledTypography = styled(Typography)<{ component?: React.ElementType }>(({ theme }) => ({
   color: primaryColor,
   textTransform: "none",
   fontWeight: 700,
@@ -20,7 +20,7 @@ const StyledTypography = styled(Typography)(({ theme }) => ({
   },
 }));
 
-const SubtitleTypography = styled(Typography)(({ theme }) => ({
+const SubtitleTypography = styled(Typography)<{ component?: React.ElementType }>(({ theme }) => ({
   fontWeight: 600,
   color: secondaryColor,
   marginBottom: "1.5em",
@@ -28,7 +28,7 @@ const SubtitleTypography = styled(Typography)(({ theme }) => ({
     "-apple-system, BlinkMacSystemFont, Roboto, Segoe UI, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
 }));
 
-const DescriptionTypography = styled(Typography)(({ theme }) => ({
+const DescriptionTypography = styled(Typography)<{ component?: React.ElementType }>(({ theme }) => ({
   fontWeight: 500,
   color: primaryColor,
   textAlign: "center",
@@ -45,7 +45,7 @@ const DescriptionTypography = styled(Typography)(({ theme }) => ({
   },
 }));
 
-const SignatureTypography = styled(Typography)(({ theme }) => ({
+const SignatureTypography = styled(Typography)<{ component?: React.ElementType }>(({ theme }) => ({
   fontWeight: 500,
   color: primaryColor,
   marginBottom: "1em",
@@ -80,10 +80,10 @@ const HeroBox = styled(Box)(({ theme }) => ({
 
 const HeroInfo = () => (
   <HeroBox>
-    <StyledTypography gutterBottom>
+    <StyledTypography gutterBottom component="div">
       Hi there, I&rsquo;m Shanthi Babu
     </StyledTypography>
-    <SubtitleTypography variant="body1" gutterBottom>
+    <SubtitleTypography variant="body1" gutterBottom component="div">
       <SignatureChip
         variant="filled"
         color="secondary"
@@ -97,11 +97,11 @@ const HeroInfo = () => (
         label="Software Engineer"
       />
     </SubtitleTypography>
-    <DescriptionTypography variant="body1" gutterBottom>
-      I am a MERN stack developer with 4+ years of experience in front-end, server-side, and database development. I&rsquo;m a quick learner and a team player who is
+    <DescriptionTypography variant="body1" gutterBottom component="div">
+      I am a MERN stack developer with 4+ years of experience in front-end, server-side development, cloud service integration, and database management. I&rsquo;m a quick learner and a team player who is
       always looking to improve my skills and learn new technologies.
     </DescriptionTypography>
-    <SignatureTypography variant="body1" gutterBottom>
+    <SignatureTypography variant="body1" gutterBottom component="div">
       My Signature skills:
     </SignatureTypography>
     <Box display="flex" justifyContent="center" gap={2}>

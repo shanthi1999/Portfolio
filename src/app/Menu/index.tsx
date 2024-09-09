@@ -41,7 +41,7 @@ const Menu = () => {
   };
 
   const handleMailMe = () => {
-    window.location.href = 'mailto:shanthibabu1999@gmail.com?subject=Contact&body=Hello';
+    window.location.href = 'mailto:shanthibabu1999@gmail.com?subject=Inquiry from Your Portfolio&body=Hello!%20I%20visited%20your%20portfolio%20and%20would%20like%20to%20get%20in%20touch%20with%20you';
   };
 
   const handleDownloadResume = () => {

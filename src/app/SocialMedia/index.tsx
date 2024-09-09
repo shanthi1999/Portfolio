@@ -51,18 +51,18 @@ const SocialLabel = styled(Typography)({
 
 function SocialMedia() {
   const socialLinks = [
-    { icon: <LinkedInIcon />, color: "#0A66C2", label: "Shanthi B" },
-    { icon: <GitHubIcon />, color: "#211F1F", label: "shanthi1999" },
-    { icon: <YouTubeIcon />, color: "#FF0000", label: "ProHub" },
-    { icon: <WhatsAppIcon />, color: "#25D366", label: "+91 8248540909" },
-    { icon: <InstagramIcon />, color: "#C13584", label: "shanthi_mastermind" },
-    { icon: <FacebookIcon />, color: "#1877F2", label: "Shanthi MasterMind" },
+    { icon: <LinkedInIcon />, color: "#0A66C2", label: "Shanthi B", link:"https://www.linkedin.com/in/shanthi-b-06065b146/" },
+    { icon: <GitHubIcon />, color: "#211F1F", label: "shanthi1999", link:"https://github.com/shanthi1999/" },
+    { icon: <YouTubeIcon />, color: "#FF0000", label: "ProHub", link:"https://www.youtube.com/@shanthib3701" },
+    { icon: <WhatsAppIcon />, color: "#25D366", label: "+91 8248540909",  link: "https://wa.me/918248540909" },
+    { icon: <InstagramIcon />, color: "#C13584", label: "shanthi_mastermind",link:"https://www.instagram.com/shanthi_mastermind/" },
+    { icon: <FacebookIcon />, color: "#1877F2", label: "Shanthi MasterMind", link:"https://www.facebook.com/shanthi.mastermind.5" },
     {
       icon: <EmailIcon />,
       color: "#D44638",
       label: "shanthibabu1999@gmail.com",
+      link:"mailto:shanthibabu1999@gmail.com"
     },
-   
   ];
 
   return (
@@ -70,7 +70,7 @@ function SocialMedia() {
       <SocialTitle variant="h5">Social Media</SocialTitle>
       <SocialGrid container spacing={2} xs={12} sm={12} md={10}>
         {socialLinks.map((link, index) => (
-          <SocialItem item xs={6} sm={4} md={4} key={index}>
+          <SocialItem item xs={6} sm={4} md={4} key={index} onClick={()=>window.open(link.link, '_blank')}>
             <IconButton sx={{fontSize:{xs:"0.2em", sm: "0.8em"}}} style={{ color: link.color }}>{link.icon}</IconButton>
             <SocialLabel sx={{fontSize:{xs:"0.7em", sm: "0.8em"}}} variant="body1">{link.label}</SocialLabel>
           </SocialItem>

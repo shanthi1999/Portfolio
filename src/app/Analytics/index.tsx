@@ -2,18 +2,8 @@
 import {
   Grid,
   Typography,
-  Box,
-  FormControl,
-  InputLabel,
-  Button,
-  styled,
-  alpha,
 } from "@mui/material";
-import Image from "next/image";
-import React, { useState } from "react";
-import InputBase from "@mui/material/InputBase";
-import TextareaAutosize from "@mui/material/TextareaAutosize";
-import { sendEmail } from "../Projects/nodemailer";
+import React from "react";
 
 function Analytics() {
   return (

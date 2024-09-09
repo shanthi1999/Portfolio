@@ -15,11 +15,13 @@ import TextareaAutosize from "@mui/material/TextareaAutosize";
 import { sendEmail } from "../Projects/nodemailer";
 
 const BootstrapInput = styled(InputBase)(({ theme }) => ({
+  textTransform:"none",
   minWidth: "1em",
   "label + &": {
     marginTop: theme.spacing(3),
   },
   "& .MuiInputBase-input": {
+    textTransform:"none",
     borderRadius: 4,
     position: "relative",
     backgroundColor: theme.palette.mode === "light" ? "#F3F6F9" : "#1A2027",
@@ -56,6 +58,7 @@ const StyledTextarea = styled(TextareaAutosize)(({ theme }) => ({
   padding: "10px 12px",
   borderRadius: 4,
   border: "1px solid #e5e5e5",
+  textTransform:"none",
   fontSize: 13,
   fontFamily:
     "-apple-system, BlinkMacSystemFont, Roboto, Segoe UI, Helvetica Neue, Arial, sans-serif",
@@ -92,7 +95,7 @@ function ContactMe() {
     }
 
     try {
-      await sendEmail(formData);
+      await sendEmail({...formData, isFromContact: true});
       alert("Message sent successfully!");
       setFormData({
         firstName: "",
@@ -101,6 +104,7 @@ function ContactMe() {
         message: "",
       });
     } catch (err) {
+      console.log(err)
       alert("Failed to send the message. Please try again.");
     }
   };

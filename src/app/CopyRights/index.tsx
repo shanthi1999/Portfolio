@@ -12,7 +12,6 @@ import {
   import React, { useState } from "react";
   import InputBase from "@mui/material/InputBase";
   import TextareaAutosize from "@mui/material/TextareaAutosize";
-  import { sendEmail } from "../Projects/nodemailer";
   
  
   const CopyRights = ()=>{
