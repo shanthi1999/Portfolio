@@ -69,6 +69,6 @@ A tool designed to streamline the review process for teams handling preprints an
 
 Feel free to reach out for collaborations or inquiries:
 
-* **Email**: [your.email@example.com](mailto:your.email@example.com)
+* **Email**: [shanthibabu1999@gmail.com](mailto:shanthibabu1999@gmail.com)
 * **LinkedIn**: [linkedin.com/in/shanthi-b-06065b146]([https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/shanthi-b-06065b146/))
 * **GitHub**: [github.com/shanthi1999]([https://github.com/yourusername](https://github.com/shanthi1999/))
