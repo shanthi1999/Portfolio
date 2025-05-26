@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Certainly! Based on the information available from [heyshanthi.vercel.app](https://heyshanthi.vercel.app), here's a comprehensive `README.md` tailored for your personal portfolio:
 
-## Getting Started
+---
 
-First, run the development server:
+# Shanthi Babu – Full Stack Developer Portfolio
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Welcome to my personal portfolio website, showcasing my expertise, projects, and professional journey as a Full Stack Developer.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🌐 Live Website
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Explore the live portfolio at [heyshanthi.vercel.app](https://heyshanthi.vercel.app)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 🧑‍💻 About Me
 
-## Learn More
+I am a MERN stack developer with over 4 years of experience in front-end and server-side development, cloud service integration, and database management. As a quick learner and team player, I continuously seek to enhance my skills and embrace new technologies.
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 Skills and Expertise
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* **Frontend**: JavaScript, ReactJS, NextJS, TypeScript, HTML, CSS, SCSS, Material UI, Ant Design
+* **Backend**: NodeJS, ExpressJS, NestJS
+* **Databases**: MongoDB, PostgreSQL
+* **Tools & Platforms**: Redux Toolkit, Webpack, ElectronJS, Azure, GitHub, Figma, Jitsi, Socket.IO
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 🏢 Experience
 
-## Deploy on Vercel
+* **Lead Software Engineer** at iNextLabs Pvt Ltd (Nov 2022 – Present)
+* **Freelance Developer** at Coko Foundation (Oct 2022 – Oct 2023)
+* **Software Engineer** at Tech Holding (Jul 2021 – Sep 2022)
+* **Software Engineer** at Colan Info Tech Pvt Ltd (May 2021 – Jun 2022)
+* **Software Engineer** at TechArdors Global (Nov 2020 – May 2021)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📚 Education
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+**Bachelor of Engineering**
+Dhirajlal Gandhi College of Technology, Salem, Tamil Nadu, India
+Affiliated with Anna University
+
+## 💼 Projects
+
+### [VirtualStaff](https://www.virtualstaff.ph)
+
+A platform facilitating the hiring of Filipino virtual assistants and building outsourced teams.
+
+**Technologies**: ReactJS, NodeJS, ExpressJS, MongoDB
+**Tools**: Figma, GitHub, Socket.IO, Jitsi
+
+### [iNextLabs Generative AI Portal](https://portal.inextlabs.ai)
+
+A transformative platform leveraging Generative AI to enhance business-customer interactions across various domains.
+
+**Technologies**: NextJS, NestJS, PostgreSQL, Azure
+**Tools**: Figma, GitHub, Socket.IO
+
+### [TLYNT](https://tlynt.com)
+
+A talent-finding application that uses data-driven approaches to create impactful social media videos.
+
+**Technologies**: ReactJS, NodeJS, ExpressJS, MongoDB
+**Tools**: Figma, GitHub, Socket.IO, Azure
+
+### [Kotahi](https://kotahi.community)
+
+A tool designed to streamline the review process for teams handling preprints and articles, supporting the pioneering of the PRC model.
+
+**Technologies**: ReactJS, NodeJS, ExpressJS, MongoDB
+**Tools**: Figma, Confluence, GitHub, Socket.IO
+
+## 📬 Contact
+
+Feel free to reach out for collaborations or inquiries:
+
+* **Email**: [your.email@example.com](mailto:your.email@example.com)
+* **LinkedIn**: [linkedin.com/in/shanthi-b-06065b146]([https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/shanthi-b-06065b146/))
+* **GitHub**: [github.com/shanthi1999]([https://github.com/yourusername](https://github.com/shanthi1999/))
